@@ -31,4 +31,14 @@ For the benchmark model a comparison with the leaderboard will be used. In addit
 
 ### Project Design
 
+Language: Python3
+Some libraries: Numpy, Pandas, Matplot, Seaborn and Sklearn
+
+Inicialmente estudarei melhor o dataset, explorando e descobrindo cada um dos seus atributos, depois disso seguirei o seguinte workflow:
+
+- Apply feature engineering to reduce the number of features
+- Applying the final model to the data and submitting the results to Kaggle for check the competition score
+
+
+
 
