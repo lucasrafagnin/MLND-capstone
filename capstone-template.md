@@ -9,7 +9,7 @@ The project is a Kaggle competition¹ called House Prices: Advanced Regression T
 
 ### Problem Statement
 
-In this project I'll predict the house price based on some explanatory variables describing aspects of residential homes in Ames, Iowa.
+In this project I will predict the house price based on some explanatory variables describing aspects of residential homes in Ames, Iowa.
 
 ### Datasets and Inputs
 
@@ -19,7 +19,8 @@ The data³ is provided by the Kaggle competition and has 79 explanatory variable
 Of the 79 variables provided, 51 were categorical and 28 were continuous.
 
 ### Solution Statement
-_(approx. 1 paragraph)_
+
+Firstly I will examine the features and their correlations, then process the data, filling the missing and nullable values, select features and apply mathematical functions or regression methods that trains the model. After that, with the model in hands the final performance can be evaluated by kaggle public leader board.
 
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
