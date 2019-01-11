@@ -5,14 +5,18 @@ December 11st, 2019
 
 ### Domain Background
 
-The project is an Kaggle competition[1] called House Prices: Advanced Regression Techniques. This dataset provide an great opportunity to practice some machine learning alghoritms and data science methods. The problem to be solved in this project is a very important theme in real estate world, I say this because I work in a company[2] that has web platforms that manage real estate in Brazil and believe that solutions like this would help the business.
+The project is a Kaggle competition[1] called House Prices: Advanced Regression Techniques. This dataset provide a great opportunity to practice some machine learning alghoritms and data science methods. The problem to be solved in this project is a very important theme in real estate world, I say this because I work in a company[2] that has web platforms that manage real estate in Brazil and believe that solutions like this would help the business.
 
 ### Problem Statement
 
-In this project I'll predict the house price based on 79 explanatory variables describing aspects of residential homes in Ames, Iowa.
+In this project I'll predict the house price based on some explanatory variables describing aspects of residential homes in Ames, Iowa.
 
 ### Datasets and Inputs
-_(approx. 2-3 paragraphs)_
+
+The data[3] is provided by the Kaggle competition and has 79 explanatory variables with information about the residential homes in Ames, Iowa. The dataset has 2 parts: 
+- Training data included 1460 houses accompanied by 79 attributes and the sales price for each house.
+- Testing data included 1459 houses with the same 79 attributes, but sales price was not included.
+Of the 79 variables provided, 51 were categorical and 28 were continuous.
 
 ### Solution Statement
 _(approx. 1 paragraph)_
