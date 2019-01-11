@@ -23,7 +23,9 @@ Of the 79 variables provided, 51 were categorical and 28 were continuous.
 Firstly I will examine the features and their correlations, then process the data, filling the missing and nullable values, select features and apply mathematical functions or regression methods that trains the model. After that, with the model in hands the final performance can be evaluated by kaggle public leader board.
 
 ### Benchmark Model
-_(approximately 1-2 paragraphs)_
+
+For the benchmark model a comparison with the leaderboard will be used. In addition I will also use [this](https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard/output) submission (which got a score of 0.11420) as a benchmark of my model
+
 
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
