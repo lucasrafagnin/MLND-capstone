@@ -4,12 +4,12 @@ Lucas Rafagnin
 December 11st, 2019
 
 ### Domain Background
-_(approx. 1-2 paragraphs)_
 
-The project is an Kaggle competition[1] called House Prices: Advanced Regression Techniques. This data set provide an great opportunity to practice some machine learning alghoritms and data science methods. The problem to be solved in this project is a very important theme in real estate world, I say this because I work in a company[2] that has web platforms that manage real estate in Brazil and believe that solutions like this would help the business.
+The project is an Kaggle competition[1] called House Prices: Advanced Regression Techniques. This dataset provide an great opportunity to practice some machine learning alghoritms and data science methods. The problem to be solved in this project is a very important theme in real estate world, I say this because I work in a company[2] that has web platforms that manage real estate in Brazil and believe that solutions like this would help the business.
 
 ### Problem Statement
-_(approx. 1 paragraph)_
+
+In this project I'll predict the house price based on 79 explanatory variables describing aspects of residential homes in Ames, Iowa.
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
