@@ -53,7 +53,7 @@ Data need to be cleaned and transformed before trying different ML algorithms. T
 Create the traning and test sets using proper sampling methods, e.g., random vs. stratified
 
 4- Feature treatments:
-With 79 features feature engineering and feature transformation some steps are important:
+With 79 features the steps like feature engineering and feature transformation are important:
 - Separate the predictors and labels
 - Convert text attributes into numerical attributes
 - Apply feature engineering to reduce the number of features
@@ -62,13 +62,11 @@ With 79 features feature engineering and feature transformation some steps are i
 5- Model selection:
 The objective here is to analyze and compare the multiple regression models, some models are important to that goal:
 - LinearRegression
-- GradientBoostingRegressor 
+- GradientBoostingRegressor
 - XGBoost
 - LightGBM
 
 Lastly I will apply the final model to the data and submitting the results to Kaggle for check the competition score.
 
 *Remembering that this step by step is a draft and can undergo changes as needed during development
-
-
 
