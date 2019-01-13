@@ -1,7 +1,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
 Lucas Rafagnin
-December 11st, 2019
+December 13st, 2019
 
 ### Domain Background
 
@@ -28,6 +28,7 @@ For the benchmark model a comparison with the leaderboard will be used. In addit
 
 ### Evaluation Metrics
 
+It is project goal is to predict the sales price for each house, and the metric is evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. (Taking logs means that errors in predicting expensive houses and cheap houses will affect the result equally.)
 
 ### Project Design
 
