@@ -34,13 +34,13 @@ For the benchmark model a comparison with the leaderboard will be used. In addit
 Language: Python3
 Some libraries: Numpy, Pandas, Matplot, Seaborn and Sklearn
 
-Inicialmente estudarei melhor o dataset, explorando e descobrindo cada um dos seus atributos, depois disso seguirei o seguinte workflow:
+Initially understand the dataset better, exploring and discovering each of its attributes, after that I will follow the workflow:
 
 1 - Explore data:
-Estudar e entender melhor o contexto do dataset, explorando as suas possibilidades e analisando as possíveis correlaçes entre suas features. Portanto algumas etapas aqui:
-- Plotar tabelas com dados estatísticos sobre o dataset (min, max, std, median...)
-- Frequencia via histogramas
-- Tipo de dados (number, text, object, etc.)
+Exploring the dataset possibilities and analyzing the correlations between its features. So here are some steps:
+- Basic stats via boxplot (min, max, std, median...)
+- Frequency via histogram
+- Data types (number, text, object, etc.)
 - Correlation analysis
 
 2 Clean data:
@@ -49,25 +49,26 @@ Data need to be cleaned and transformed before trying different ML algorithms. T
 - Remove skewness;
 - Outlier analysis;
 
-3 Prepare Data; 
+3 Prepare Data:
 Create the traning and test sets using proper sampling methods, e.g., random vs. stratified
 
-4- Feature treatments;
+4- Feature treatments:
 With 79 features feature engineering and feature transformation some steps are important:
 - Separate the predictors and labels
 - Convert text attributes into numerical attributes
 - Apply feature engineering to reduce the number of features
 - Feature scalling (normalization or standardization)
 
-5- Model selection
+5- Model selection:
 The objective here is to analyze and compare the multiple regression models, some models are important to that goal:
 - LinearRegression
 - GradientBoostingRegressor 
 - XGBoost
 - LightGBM
 
-Lastly I will apply the final model to the data and submitting the results to Kaggle for check the competition score
+Lastly I will apply the final model to the data and submitting the results to Kaggle for check the competition score.
 
+*Remembering that this step by step is a draft and can undergo changes as needed during development
 
 
 
