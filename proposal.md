@@ -1,6 +1,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
 Lucas Rafagnin
+
 December 13st, 2019
 
 ### Domain Background
