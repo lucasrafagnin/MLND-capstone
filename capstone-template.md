@@ -54,7 +54,7 @@ Data need to be cleaned and transformed before trying different ML algorithms. T
 
 **3. Prepare Data:**
 
-Create the traning and test sets using proper sampling methods, e.g., random vs. stratified
+Create the traning and test sets using proper sampling methods, e.g., random vs. stratified.
 
 **4. Feature treatments:**
 
@@ -75,4 +75,13 @@ The objective here is to analyze and compare the multiple regression models, som
 Lastly I will apply the final model to the data and submitting the results to Kaggle for check the competition score.
 
 *Remembering that this step by step is a draft and can undergo changes as needed during development
+
+
+### Reference
+
+[1] kaggle.com. House prices: Advanced regression techniques. **https://www.kaggle.com/c/house-prices-advanced-regression-techniques**.
+
+[2] grupozap.com. Grupo ZAP. **https://www.grupozap.com**.
+
+[3] kaggle.com. House prices: Advanced regression techniques. **https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data**.
 
