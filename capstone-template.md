@@ -24,11 +24,11 @@ Firstly I will examine the features and their correlations, then process the dat
 
 ### Benchmark Model
 
-For the benchmark model a comparison with the leaderboard will be used. In addition I will also use [this](https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard/output) submission (which got a score of 0.11420) as a benchmark of my model
+For the benchmark model a comparison with the leaderboard will be used. In addition I will also use [this](https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard/output) submission (which got a score of 0.11420) as a benchmark of my model.
 
 ### Evaluation Metrics
 
-It is project goal is to predict the sales price for each house, and the metric is evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. (Taking logs means that errors in predicting expensive houses and cheap houses will affect the result equally.)
+It is project goal is to predict the sales price for each house, and the metric is evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. (Taking logs means that errors in predicting expensive houses and cheap houses will affect the result equally).
 
 ### Project Design
 
@@ -37,30 +37,35 @@ Some libraries: Numpy, Pandas, Matplot, Seaborn and Sklearn
 
 Initially understand the dataset better, exploring and discovering each of its attributes, after that I will follow the workflow:
 
-1 - Explore data:
+**1. Explore data:**
+
 Exploring the dataset possibilities and analyzing the correlations between its features. So here are some steps:
 - Basic stats via boxplot (min, max, std, median...)
 - Frequency via histogram
 - Data types (number, text, object, etc.)
 - Correlation analysis
 
-2 Clean data:
+**2. Clean data:**
+
 Data need to be cleaned and transformed before trying different ML algorithms. Therefore some methods are possible:
 - Handle missing data;
 - Remove skewness;
 - Outlier analysis;
 
-3 Prepare Data:
+**3. Prepare Data:**
+
 Create the traning and test sets using proper sampling methods, e.g., random vs. stratified
 
-4- Feature treatments:
+**4. Feature treatments:**
+
 With 79 features the steps like feature engineering and feature transformation are important:
 - Separate the predictors and labels
 - Convert text attributes into numerical attributes
 - Apply feature engineering to reduce the number of features
 - Feature scalling (normalization or standardization)
 
-5- Model selection:
+**5. Model selection:**
+
 The objective here is to analyze and compare the multiple regression models, some models are important to that goal:
 - LinearRegression
 - GradientBoostingRegressor
